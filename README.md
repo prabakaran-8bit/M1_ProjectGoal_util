@@ -5,5 +5,6 @@ Project on building calculator using C-Programming
 * Folder Structure
 * Idea
 * Requirements
-* Design
+* design
+* implementation
 * Test plan
