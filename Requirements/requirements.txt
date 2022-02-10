@@ -1,4 +1,0 @@
-The required softwares are 
-visual studio code
-linux-ubuntu
-
