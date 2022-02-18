@@ -43,7 +43,7 @@ Design and testing operations of calculator using unit testing algorithm.
 
 ### When: Need for calculation.
 
-### How: Calculates the user input as numbers or variales.
+### How: Calculates the user input as numbers .
 
 ## Detailed Requirements:
 
