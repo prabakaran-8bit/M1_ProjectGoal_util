@@ -1,1 +1,2 @@
-#Meeting all the low level requirements 
+all the low level requirements are implemented
+
