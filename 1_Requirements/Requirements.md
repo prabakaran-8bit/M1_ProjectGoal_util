@@ -14,8 +14,8 @@ People who don't know how to perform mathematical calculations in mind can or wh
 In addition, high-end numeric calculators generally include:
 
 * factorial
-* variables
-* complex problem solving methods like integration and multiplication
+* square ,qube, square root
+* basic problem solving addition division subtraction multiplication
 ### Cost Vs Timeline ** This is the plot of cost of the calculators in ($ ) and time in years
 
 https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/calculating-devices/handheld-electronic-calculators#:~:text=Despite%20initial%20scepticism%20that%20a,price%20of%20%24395%20in%201972.
@@ -55,6 +55,8 @@ Design and testing operations of calculator using unit testing algorithm.
 
 
 ## Low Level Requirements
-* Performs all basic methods such as addition, subtraction,multiplication and division
-* calculators can be used anywhere
+* Performs addition, 
+* Performs subtraction
+* Performs multiplication
+* Performs  division
 * Better performance and accuracy than regular numeric calculators
