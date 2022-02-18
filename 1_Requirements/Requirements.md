@@ -48,9 +48,10 @@ Design and testing operations of calculator using unit testing algorithm.
 ## Detailed Requirements:
 
 ## High Level Requirements:
-* Implemented calculation method square root,square and qube	
+* Implemented calculation method square and qube	
 * Implemented  calculation method fatorial
-* Implemented calculation method integration
+* Implemented square root
+
 
 
 ## Low Level Requirements
