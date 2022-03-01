@@ -1,35 +1,41 @@
 #include <stdio.h>
 #include "function.h"
-
-
-int main(){
-	char op;
-	double x, y,s,su,d,p;
-	printf("Pls enter the operation of the symbol that is to be performed (+,-,/,*) :");
-	scanf("%c",&op);
-	printf("please enter the numbers :");
-	scanf("%lf %lf", &x, &y);
-	switch (op)
-	  {
-	  case('+'):
-		   s = sum(x, y);
-		   printf("%.1lf",s);
-		   break;
-	  case ('-'):
-	      su = subtraction(x, y);
-	      printf("%.1lf",su);
-		  break;
-	  case '/':
-	      d = division(x, y);
-	      printf("%.1lf",d);
-		  break;
-      case '*':
-	      p = product(x, y);
-	      printf("%.1lf",p);
-		  break;
-	  default:
-		  printf("Enter a valid operation");
-		  break;
+#include <stdlib.h>
+#include <windows.h>
+#include <strings.h>
+#include <ctype.h>
+void menu(){
+	system("cls");
+	int position=1;
+	int keyPressed=0;
+	while(keyPressed != 13){
+		system("cls");
+		char*c="";
+		arrowhead(1,position);printf("%20s ADDITION\n",c);
+		arrowhead(2,position);printf("%20s SUBTRACTION\n",c);
+		arrowhead(3,position);printf("%20s MULTIPLICATION\n",c);
+		arrowhead(4,position);printf("%20s DIVISION\n",c);
+		keyPressed=getch();
+		if(keyPressed==80 && position!=4){
+			position++;
+		}else if (keyPressed==72 && position!=1){
+			position--;
+		}else{
+		position=position;
+		}	
 	}
+	printf("selection is %d\n",position);
+	getch();
+	
+}
+void arrowhead(int pos,int arrpos){
+	if(pos==arrpos){
+		printf("==>>>");
+	}else{
+		printf("     ");
+	}
+}
+int main(){
+	menu();
 	return 0;
 }
