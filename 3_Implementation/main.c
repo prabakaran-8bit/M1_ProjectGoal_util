@@ -8,6 +8,8 @@ void menu(){
 	system("cls");
 	int position=1;
 	int keyPressed=0;
+	double x;
+	double y;
 	while(keyPressed != 13){
 		system("cls");
 		char*c="";
@@ -26,6 +28,27 @@ void menu(){
 	}
 	printf("selection is %d\n",position);
 	getch();
+	printf("Enter the first number: \n");
+	scanf("%lf",&x);
+	printf("Enter the second number: \n");
+	scanf("%lf",&y);
+	switch(position){
+		case(1):  
+			printf("%.1lf\n", x + y);
+		    break;
+		case(2):
+		    printf("%.1lf\n", x - y);
+		    break;
+		case(3):
+	        printf("%.1lf\n",x * y);
+		    break;
+		case(4):
+		    printf("%.1lf\n",x / y);
+		    break;
+		default:
+		    printf("Operant is invalid");
+		    break;
+	}
 	
 }
 void arrowhead(int pos,int arrpos){
