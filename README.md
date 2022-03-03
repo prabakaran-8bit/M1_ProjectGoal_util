@@ -1,4 +1,4 @@
-# M1-Electricity_util
+# M1-ProjectGoal_util
 Project on building calculator using C-Programming
 
 ## Milestone-1
