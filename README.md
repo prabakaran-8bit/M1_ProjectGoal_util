@@ -1,4 +1,4 @@
-# M1-ProjectGoal_util
+# M1-Calculator
 Project on building calculator using C-Programming
 
 ## Milestone-1
