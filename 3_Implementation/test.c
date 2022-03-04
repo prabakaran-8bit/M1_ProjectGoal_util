@@ -1,6 +1,6 @@
-#include "fun.h"
-#include "unity.h"
-#include "unity_internals.h"
+#include "inc\fun.h"
+#include "unity\unity.h"
+#include "unity\unity_internals.h"
 
 void setUp(){}
 void tearDown(){}

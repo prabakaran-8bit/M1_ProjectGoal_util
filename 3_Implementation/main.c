@@ -1,4 +1,4 @@
-#include"fun.h"
+#include"inc/fun.h"
 #include<stdio.h>
 #include<conio.h>
 #include<windows.h>
