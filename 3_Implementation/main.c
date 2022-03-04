@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <strings.h>
 #include <ctype.h>
+#include <windows.h>
+#include <conio.h>
 int main(){
 	system("cls");
 	int position=1;
