@@ -1,5 +1,5 @@
 # M1-Calculator
-Project on building calculator using C-Programming
+Project on building calculator using C-Programming and implementing a menu type interface in the calculator
 
 ## Milestone-1
 * Folder Structure
