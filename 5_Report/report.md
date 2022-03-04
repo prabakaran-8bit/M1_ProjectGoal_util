@@ -1,3 +1,7 @@
+# M1-Calculator
+Project on building calculator using C-Programming and implementing a menu type interface in the calculator
+
+
 ## DESCRIPTION:  
 The numeric calculator project is the application based mini project, which is used to perform mathematical calculations by taking input of user. The tool used for writing the code in this project is visual studio code. This project has multi file and multiplatform approach (Linux and Windows).
 
