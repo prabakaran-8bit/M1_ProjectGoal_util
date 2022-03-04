@@ -14,14 +14,14 @@ int fact(int z){
     }
 	return fact;    
 }
-double square(double x){
+float square(float x){
     return x*x;
 }
-double qube(double x){
+float qube(float x){
     
     return x*x*x;
 }
-double squareroot(double x){
+float squareroot(float x){
 	return sqrt(x);
 
 }

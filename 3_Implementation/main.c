@@ -10,8 +10,8 @@ int main(){
 	int position=1;
 	int keyPressed=0;
 	int keypressedagain=0; 
-	double x;
-	double y;
+	float x;
+	float y;
 	int z;
 	while(keyPressed != 13){
 		system("cls");
@@ -61,37 +61,37 @@ int main(){
 		    system("cls"); 
 		    printf("ADDITION\n");
 		    printf("Enter the first number: \n");
-	        scanf("%lf",&x);
+	        scanf("%f",&x);
 	        printf("Enter the second number: \n");
-	        scanf("%lf",&y); 
-			printf("Answer is : %.1lf\n", sum(x,y));
+	        scanf("%f",&y); 
+			printf("Answer is : %.1f\n", sum(x,y));
 		    break;
 		case(2):
 		    system("cls");
 		    printf("SUBTRACTION\n");
 		    printf("Enter the first number: \n");
-	        scanf("%lf",&x);
+	        scanf("%f",&x);
 	        printf("Enter the second number: \n");
-	        scanf("%lf",&y);
-		    printf("Answer is : %.1lf\n", subtraction(x,y));
+	        scanf("%f",&y);
+		    printf("Answer is : %.1f\n", subtraction(x,y));
 		    break;
 		case(3):
 		    system("cls");
 		    printf("MULTIPILCATION\n");
 		    printf("Enter the first number: \n");
-	        scanf("%lf",&x);
+	        scanf("%f",&x);
 	        printf("Enter the second number: \n");
-	        scanf("%lf",&y);
-	        printf("Answer is : %.1lf\n",product(x,y));
+	        scanf("%f",&y);
+	        printf("Answer is : %.1f\n",product(x,y));
 		    break;
 		case(4):
 		    system("cls");
 		    printf("DIVISION\n");
 		    printf("Enter the first number: \n");
-	        scanf("%lf",&x);
+	        scanf("%f",&x);
 	        printf("Enter the second number: \n");
-	        scanf("%lf",&y);
-		    printf("Answer is : %.1lf\n",division(x,y));
+	        scanf("%f",&y);
+		    printf("Answer is : %.1f\n",division(x,y));
 		    break;
 		case(5):
 		    system("cls");
@@ -104,22 +104,22 @@ int main(){
 		    system("cls");
 		    printf("SQUAREROOT\n");
 		    printf("Enter the number: \n");
-	        scanf("%lf",&x);
-		    printf("Answer is : %.1lf\n",squareroot(x));
+	        scanf("%f",&x);
+		    printf("Answer is : %.1f\n",squareroot(x));
 		    break;
 		case(7):
 		    system("cls");
 		    printf("SQUARE\n");
 		    printf("Enter the number: \n");
-	        scanf("%lf",&x);
-		    printf("Answer is : %.1lf\n",square(x));
+	        scanf("%f",&x);
+		    printf("Answer is : %.1f\n",square(x));
 		    break;
 		case(8):
 		    system("cls");
             printf("QUBE\n");
 		    printf("Enter the  number: \n");
-	        scanf("%lf",&x);
-		    printf("Answer is : %.1lf\n",qube(x));
+	        scanf("%f",&x);
+		    printf("Answer is : %.1f\n",qube(x));
 		    break;			
 		default:
 		    system("cls");

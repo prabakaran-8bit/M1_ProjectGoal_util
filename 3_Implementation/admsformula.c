@@ -1,15 +1,15 @@
 
 #include "fun.h"
 
-double division(double x, double y){
+float division(float x, float y){
     return x / y;
 }
-double product(double x, double y){
+float product(float x, float y){
     return x * y;
 }
-double subtraction(double x, double y){
+float subtraction(float x, float y){
     return x - y;
 }
-double sum(double x, double y){
+float sum(float x,float y){
     return x + y;
 }

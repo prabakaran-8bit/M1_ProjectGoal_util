@@ -9,19 +9,20 @@ void tearDown(){}
 
 void test_sum(void)
 {
-TEST_ASSERT_EQUAL_DOUBLE(2.0,sum(1.0,1.0));
+TEST_ASSERT_EQUAL_FLOAT(2.0,sum(1,1));
+
 }
 void test_product(void)
 {
-TEST_ASSERT_EQUAL_DOUBLE(2.0,product(2.0,1.0));
+TEST_ASSERT_EQUAL_FLOAT(2.0,product(2,1));
 }
 void test_division(void)
 {
-TEST_ASSERT_EQUAL_DOUBLE(2.0,division(6.0,3.0));
+TEST_ASSERT_EQUAL_FLOAT(2.0,division(6,3));
 }
 void test_subtraction(void)
 {
-TEST_ASSERT_EQUAL_DOUBLE(4.0,subtraction(6.0,2.0));
+TEST_ASSERT_EQUAL_FLOAT(4.0,subtraction(6,2));
 }
 void test_fact(void)
 {
@@ -29,15 +30,15 @@ TEST_ASSERT_EQUAL_INT(120,fact(5));
 }
 void test_square(void)
 {
-TEST_ASSERT_EQUAL_DOUBLE(4.0,square(2.0));
+TEST_ASSERT_EQUAL_FLOAT(4.0,square(2));
 }
 void test_squareroot(void)
 {
-TEST_ASSERT_EQUAL_DOUBLE(5.0,squareroot(25.0));
+TEST_ASSERT_EQUAL_FLOAT(5,squareroot(25));
 }
 void test_qube(void)
 {
-TEST_ASSERT_EQUAL_DOUBLE(8.0,qube(2.0));
+TEST_ASSERT_EQUAL_FLOAT(8.0,qube(2));
 }
 
 

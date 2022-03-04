@@ -3,12 +3,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 void arrowhead(int pos,int arrpos);
-double sum(double x, double y);
-double product(double x, double y);
-double subtraction(double x, double y);
-double division(double x, double y);   
+float sum(float x, float y);
+float product(float x, float y);
+float subtraction(float x, float y);
+float division(float x, float y);   
 int fact(int z);
-double squareroot(double x);
-double square(double x);
-double qube(double x);
+float squareroot(float x);
+float square(float x);
+float qube(float x);
 #endif
