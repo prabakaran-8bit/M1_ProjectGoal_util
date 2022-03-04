@@ -11,3 +11,4 @@ Project on building calculator using C-Programming
 ## BADGES
 [![Codacy Security Scan](https://github.com/prabakaran-8bit/M1_ProjectGoal_util/actions/workflows/codacy.yml/badge.svg)](https://github.com/prabakaran-8bit/M1_ProjectGoal_util/actions/workflows/codacy.yml)
 [![Codacy Security Scan](https://github.com/prabakaran-8bit/M1_ProjectGoal_util/actions/workflows/codacy.yml/badge.svg)](https://github.com/prabakaran-8bit/M1_ProjectGoal_util/actions/workflows/codacy.yml)
+[![PSScriptAnalyzer](https://github.com/prabakaran-8bit/M1_ProjectGoal_util/actions/workflows/powershell.yml/badge.svg)](https://github.com/prabakaran-8bit/M1_ProjectGoal_util/actions/workflows/powershell.yml)
